@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title id="title">SUNWIFI HOTSPOT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+<link rel="stylesheet" href="css/mikhmon-ui-light.css">
+<link rel="stylesheet" href="css/background.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="img/favicon.png" />
+<script src="js/typed.min.js"></script>
+<!-- Start .com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End .com HEAD section -->
+</head>
+
+<body class="background">
+	<div class="container">
+		<div class="row">
+			<div class="col-8 mr-a" id="main" style="float:none;">
+				<div class="row">
+					<div class="col-4">	
+						<div class="row">
+							<div class="col-12">
+								<div class="box bmh-80 mnabgblack box-shadow text-center" ><img src="img/logo.png" alt="QUI N'AVANCE PAS" style="border-radius: 5px; width:100%; max-width: 200px; height:auto;"/></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="card  box-shadow">
+									<div class="card-header mnabgblack"><h3 style="color: white;">Connexion</h3></div>
+									<div class="card-body">
+								$(if chap-id)
+									<form name="sendin" action="$(link-login-only)" method="post">
+										<input type="hidden" name="username" />
+										<input type="hidden" name="password" />
+										<input type="hidden" name="dst" value="$(link-orig)" />
+										<input type="hidden" name="popup" value="true" />
+									</form>
+	
+									<script type="text/javascript" src="/md5.js"></script>
+									<script type="text/javascript">
+									<!--
+	    							function doLogin() {
+									document.sendin.username.value = document.login.username.value;
+									document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+									document.sendin.submit();
+									return false;
+	    							}
+									//-->
+									</script>
+								$(endif)
+						
+					<div>	
+					<form autocomplete="off" name="login" action="$(link-login-only)" method="post"
+					    $(if chap-id) onSubmit="return doLogin()" $(endif)>
+						<input type="hidden" name="dst" value="$(link-orig)" />
+						<input type="hidden" name="popup" value="true" />
+							<div class="row">
+								<div class=""> 
+								<div class="box mr-2 pointer text-center text-light mnabgblack" id="btnvcr" onclick="voucher()">Code</div>
+								</div>
+									  
+						
+							</div>
+								<input class="form-control-md mr-t-10 plch-center" name="username" type="text" value="$(username)" placeholder="Voucher" />
+								<input class="form-control-md mr-t-10 plch-center" name="password" type="hidden" placeholder="Password" />
+
+							<div class="text-center mr-t-10">
+								<button type="submit" class="w-12 btn-md mnabgblack pd-5">Connexion</button>
+							</div>
+					</form>
+					<div class="text-center mr-t-10">
+						<a href="https://wentenga.sunwifi.net/ticket/souscription/">  <button class=" w-12 btn-md mnabgblack pd-5"> Payer par mobile money</button></a>
+					</div>
+
+
+					
+				</div>
+					
+				$(if error)<div class="alert bg-danger text-center mr-t-10">$(error)</div>$(endif)
+			</div>
+			<div class="card-footer mnabgblack mr-t-10 text-center">
+				$(if trial == 'yes')Connexion Gratuite <a class="text-pink text-bold mnatext" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)"> Test gratuit</a>$(endif)
+				<div> Whatsapp Gratuit! sans code</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12">
+		<div class="card box-shadow">
+			<div class="card-header mnabgblack"><h3 class="mnatext">Contactez nous :</h3></div>			
+			<div class="card-body align-middle"><center>  Tél : +226 73 38 39 40 </center> 
+				</div>
+				
+				
+		</div>
+	</div>
+</div>
+</div>
+
+	<div class="col-8">
+		<div class="row">
+			<div class="col-12">
+				<div class="card box-shadow">
+					<div  class="card-header mnabgblack"> <h2 class="mnatext" id="effet"></h2>
+					<!--script taping start-->					
+					<script>
+						 var typed2 = new Typed('#effet', {
+							strings: ['Surfez avec une connexion haut débit !!!','24H / 24H','Avec le même code daccès, connectez vous partout ou vous verrez Sunwifi :)'],
+						typeSpeed: 50,
+						backSpeed: 20,
+						fadeOut: false,
+						loop: false
+						});						
+					</script>
+					<!--script taping  end-->
+					</div>
+					
+					<div class="card-body">
+						
+						<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+			<li><a href="http://wowslider.net"><img src="data1/images/1.jpg" alt="jquery slideshow" title="" id="wows1_0"/></a></li>
+			</ul></div>
+		<div class="ws_bullets"><div>
+			<a href="#" title=""><span><img src="data1/tooltips/1.jpg" alt=""/>1</span></a>
+		
+		</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript photo gallery</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+
+
+	<!-- End WOWSlider.com BODY section -->
+					</div>
+				</div>				
+			</div>
+
+			<div class="col-12">
+				<div class="card box-shadow">
+					<div class="card-header  mnabgblack"><h3 style="color:aliceblue">Nos tarifs</h3></div>
+					<div class="card-body">
+						<div class="row">
+
+							<!--Forfait debut-->
+							<div class="col-6">
+								<div class="box bg-dark bmh-60">
+									<div class="box-group">
+            							<div class="box-group-icon">24H Prix : 100F cfa</div>
+              				
+            						</div>
+								</div>
+							</div>
+							
+							<!--/Forfait fin-->
+
+							<!--Forfait debut-->							
+							<div class="col-6">
+								<div class="box bg-dark bmh-60">
+									<div class="box-group">
+            							<div class="box-group-icon"> 1SEMAINE Prix : 700F cfa</div>
+              							<!--<div class="box-group-area">
+                						<span>
+                							Prix : 200F cfa<br>
+											Haut débit<br>
+                						</span>
+              							</div> -->
+            						</div>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="box bg-dark bmh-60">
+									<div class="box-group">
+            							<div class="box-group-icon">1 Mois Prix : 3 000F cfa</div>
+              							<div class="box-group-area">
+              							</div>
+            						</div>
+								</div>
+							</div>
+							<!--/Forfait fin-->
+
+						
+						
+								
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-12">
+			<div class="card box-shadow">
+				
+				
+
+				</div>
+					
+				
+	</div>
+</div>
+<div class="card-footer bg-cyan pd-l-10">
+    <center>
+        <i> 
+        <a style ="color: aliceblue;" href="https://www.sunwifi.net">Copyright &copy; 2024 Sunwifi</a></i>
+    </center>
+</div>
+
+</div>
+</div>
+</div>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/typed.js/typed.min.js"></script>
+<script src="js/scripts.js"></script>
+<script type="text/javascript">
+
+document.login.username.focus();
+document.getElementById('title').innerHTML = window.location.hostname + " > login";
+
+// login page 2 mode by Laksamadi Guko
+var username = document.login.username;
+var password = document.login.password;
+var luser = document.getElementById("luser");
+var lpass = document.getElementById("lpass");
+var btnmem = document.getElementById("btnmem");
+var btnvcr = document.getElementById("btnvcr");
+
+// set password = username
+function setpass(){
+  var user = username.value		
+  password.value = user;
+}
+	
+username.onkeyup = setpass;
+	
+btnmem.style.backgroundColor = "#73818f";
+btnvcr.style.backgroundColor = "#20a8d8";  
+
+// change to member mode
+function member(){
+  username.focus();
+  username.onkeyup = "";
+  username.placeholder = "Username";
+  password.type= "password";
+  password.value = "";
+  btnmem.style.backgroundColor = "#20a8d8"; 
+  btnvcr.style.backgroundColor = "#73818f"; 
+}
+
+// change to voucher mode
+function voucher(){
+  username.focus();
+  username.onkeyup = setpass;
+  username.placeholder = "Code";
+  password.type = "hidden";
+  password.value = username.value;  
+  btnmem.style.backgroundColor = "#73818f";
+  btnvcr.style.backgroundColor = "#20a8d8";  
+}
+
+/////// JC code Début
+
+$( document ).ready( function(){
+	member();
+});
+
+/////// JC code Fin
+//-->
+
+</script>
+  <!--Systeme de Messagerie-->
+
+<!--Fin Systeme de Messagerie-->
+
+
+
+<script>
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const username = urlParams.get('username');
+      const password = urlParams.get('password');
+
+      if (username && password) {
+        document.getElementsByName('username')[0].value = username;
+        document.getElementsByName('password')[0].value = password;
+      }
+    }
+  </script>
+
+
+</body>
+</html>
